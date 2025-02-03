@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.title{
+    color: rgb(255, 0, 140);
+    text-align: center;
+    font-size: 36px;
+    margin: 50px auto;
+}
+
+.paragraph{
+    font-size: 18px;
+    color: black;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc(100% / 3);
+    justify-content: space-around;
+    align-items: column;
+    padding: 20px;
+}
